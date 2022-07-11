@@ -1,0 +1,19 @@
+preface.txt
+--------------------------------------------------
+  1  These notes are for a second course on computer programming and 
+  2  software development. In a first course, you likely focused on 
+  3  learning the basics: variables, control statements, input and 
+  4  output, files, vectors (or arrays), functions and structures. You 
+  5  may have also had an introduction to classes. These concepts are 
+  6  critically important and they are sufficient for the creation of 
+  7  many useful programs.  But many other programs, especially large 
+  8  ones, require more powerful concepts and techniques. And a deeper 
+  9  understanding of classes and design principles.
+ 10
+ 11  In fact, the creation of large computer programs poses three basic 
+ 12  challenges.  The overall goal of these notes is to teach you 
+--------------------------------------------------
+  next  previous  open  quit 
+-------
+command: o
+file: introduction.txt

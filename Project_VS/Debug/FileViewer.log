@@ -1,0 +1,12 @@
+﻿  Buffer.cpp
+C:\Users\ecmat\OneDrive\Desktop\Classwork\CS142\project\FileViewer\Source\Buffer.h(47,22): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\ecmat\OneDrive\Desktop\Classwork\CS142\project\FileViewer\Source\Buffer.cpp(10,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ecmat\OneDrive\Desktop\Classwork\CS142\project\FileViewer\Source\Buffer.cpp(12,60): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\ecmat\OneDrive\Desktop\Classwork\CS142\project\FileViewer\Source\Buffer.cpp(85,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ecmat\OneDrive\Desktop\Classwork\CS142\project\FileViewer\Source\Buffer.cpp(99,11): warning C4018: '<=': signed/unsigned mismatch
+  FileViewer.cpp
+C:\Users\ecmat\OneDrive\Desktop\Classwork\CS142\project\FileViewer\Source\Buffer.h(47,22): warning C4018: '>=': signed/unsigned mismatch
+  test.cpp
+C:\Users\ecmat\OneDrive\Desktop\Classwork\CS142\project\FileViewer\Source\Buffer.h(47,22): warning C4018: '>=': signed/unsigned mismatch
+  Generating Code...
+  FileViewer.vcxproj -> C:\Users\ecmat\OneDrive\Desktop\Classwork\CS142\project\FileViewer\Project_VS\Debug\FileViewer.exe

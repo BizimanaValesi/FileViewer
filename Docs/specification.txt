@@ -1,0 +1,55 @@
+File Viewer
+
+
+SPECIFICATION
+
+
+OVERVIEW
+
+A simple file viewer that allows the user view the contents of a text file.  
+
+
+DETAILS
+
+The program interacts with the user as shown in the following example:
+
+preface.txt
+--------------------------------------------------
+  1  These notes are for a second course on computer programming and 
+  2  software development. In a first course, you likely focused on 
+  3  learning the basics: variables, control statements, input and 
+  4  output, files, vectors (or arrays), functions and structures. You 
+  5  may have also had an introduction to classes. These concepts are 
+  6  critically important and they are sufficient for the creation of 
+  7  many useful programs.  But many other programs, especially large 
+  8  ones, require more powerful concepts and techniques. And a deeper 
+  9  understanding of classes and design principles.
+ 10
+ 11  In fact, the creation of large computer programs poses three basic 
+ 12  challenges.  The overall goal of these notes is to teach you 
+--------------------------------------------------
+  next  previous  open  quit 
+-------
+command: o
+file: introduction.txt
+
+The program begins by asking the user for a window height.  This is the number of lines that will be displayed as each "page".  The displayed lines are numbered starting at 1 for the first line of the file.  If the number of lines on the last page is smaller than the window height, the rest of the window is filled with unnumbered empty lines. 
+
+Each page is displayed between two lines of 50 dashes.  The name of the file is printed above the first line of dashes.  If no file is currently open, the string "<no file opened>" is printed instead of the file name.  
+
+Below the second line of dashes, a menu of commands is displayed.  Below that menu, the prompt "choice:" is displayed.  The user types the first letter of a command, the command executes and everything is redisplayed.  Some commands prompt the user for more information.  
+
+Here is a description of the various commands:
+
+next: The next page is displayed.  Does nothing if the last line of the file is already displayed.
+
+previous: The previous page is displayed.  Does nothing if the first line of the file is already displayed.
+
+open: Asks for a file name (with prompt "file:") and displays that file.  If a file named X does not open, the message "ERROR: Could not open X" is displayed just before the file name is redisplayed.
+
+quit: Stops the program.
+
+
+NOTES FOR LATER VERSIONS
+
+Add more error-checking.  For example, check that commands are entered properly and that the window height is a positive integer.

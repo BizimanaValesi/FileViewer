@@ -1,0 +1,51 @@
+File Viewer
+
+
+DESIGN DOCUMENT
+
+
+COMPONENT: class FileViewer
+
+A simple file viewer.  See program specification for details.
+
+Public method:
+
+o void run()
+
+    Runs the viewer.  
+    
+Implementation note: Holds the lines of text in a Buffer object.  The displaying of the buffer contents and the execution of the commands is delegated to the Buffer object.
+
+Collaborator: Buffer.
+
+
+COMPONENT: class Buffer
+
+A buffer for a simple file viewer.  Holds the lines of text and executes commands on them.  Displays the contents of the buffer.  See program specification for details on commands.
+
+Public methods:
+          
+o Buffer() 
+
+    Creates an empty buffer. 
+
+o void display() const
+
+    Displays the lines of text that the user is currently viewing. 
+    
+o const string & file_name() const
+
+    Returns the name of the file. Returns an empty string if no file is open.
+
+o void move_to_next_page() 
+  void move_to_previous_page() 
+  bool open(const string & file_name)
+  
+    Executes the corresponding file viewer command on the buffer.  See program specification for details.  The method open returns true if successful.
+    
+o void set_window_height(int h)
+
+    Self-explanatory.
+
+Implementation note:  Stores each line of text as a string and all the lines in a vector.  Also stores the name of the file and the window height.
+             

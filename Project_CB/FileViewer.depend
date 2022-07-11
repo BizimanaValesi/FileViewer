@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1392679174 source:c:\users\alexis\documents\cs142\prep\fileviewer\fileviewer.cpp
+	"FileViewer.h"
+	<iostream>
+	<string>
+
+1520631963 c:\users\alexis\documents\cs142\prep\fileviewer\fileviewer.h
+	<cstdlib>
+	<iostream>
+	<string>
+	"Buffer.h"
+
+1520627022 c:\users\alexis\documents\cs142\prep\fileviewer\buffer.h
+	<fstream>
+	<iomanip>
+	<iostream>
+	<string>
+	<vector>
+
+1392677214 source:c:\users\alexis\documents\cs142\prep\fileviewer\test.cpp
+	"FileViewer.h"
+
+1520627231 source:c:\users\alexis\documents\cs142\prep\fileviewer\buffer.cpp
+	"Buffer.h"
+
+1508255405 source:c:\users\alexis\documents\cs142\cours\fileviewer\buffer.cpp
+	"Buffer.h"
+	<fstream>
+	<iomanip>
+	<iostream>
+	<string>
+
+1508255313 c:\users\alexis\documents\cs142\cours\fileviewer\buffer.h
+	<vector>
+	<string>
+
+1508255837 source:c:\users\alexis\documents\cs142\cours\fileviewer\fileviewer.cpp
+	"FileViewer.h"
+	<iostream>
+	<string>
+
+1508255790 c:\users\alexis\documents\cs142\cours\fileviewer\fileviewer.h
+	<string>
+	"Buffer.h"
+
+1392680814 source:c:\users\alexis\documents\cs142\cours\fileviewer\test.cpp
+	"FileViewer.h"
+
+1488751156 source:c:\users\alexis\documents\cs142\web\code\fileviewer\buffer.cpp
+	"Buffer.h"
+	<fstream>
+	<iomanip>
+	<iostream>
+	<string>
+
+1488751111 c:\users\alexis\documents\cs142\web\code\fileviewer\buffer.h
+	<vector>
+	<string>
+
+1392680820 source:c:\users\alexis\documents\cs142\web\code\fileviewer\fileviewer.cpp
+	"FileViewer.h"
+	<iostream>
+	<string>
+
+1392680420 c:\users\alexis\documents\cs142\web\code\fileviewer\fileviewer.h
+	<string>
+	"Buffer.h"
+
+1392677212 source:c:\users\alexis\documents\cs142\web\code\fileviewer\test.cpp
+	"FileViewer.h"
+

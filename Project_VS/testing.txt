@@ -1,0 +1,6 @@
+Hello          Friend
+<p>
+How    is it       going?
+Paragraph <a design.txt design >
+<br>
+Hello!
